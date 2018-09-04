@@ -1,0 +1,48 @@
+CREATE TABLE `url_db`.`colleted_url` (
+  `url_id` INT NOT NULL AUTO_INCREMENT,
+  `url` VARCHAR(255) NOT NULL,
+  `harmful` TINYINT(1) NOT NULL,
+  `visited` TINYINT(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`url_id`),
+  UNIQUE INDEX `url_UNIQUE` (`url` ASC));
+
+
+CREATE TABLE `url_db`.`url_data` (
+  `url_id` INT NOT NULL,
+  `text_data` MEDIUMTEXT NULL,
+  PRIMARY KEY (`url_id`));
+
+ALTER TABLE `url_db`.`url_data`
+ADD CONSTRAINT `fk_url_data_1`
+  FOREIGN KEY (`url_id`)
+  REFERENCES `url_db`.`colleted_url` (`url_id`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+CREATE TABLE `url_db`.`url_relation` (
+  `relation_id` INT NOT NULL AUTO_INCREMENT,
+  `parent_id` INT NULL,
+  `child_id` INT NULL,
+  PRIMARY KEY (`relation_id`),
+  INDEX `fk_url_relation_1_idx` (`parent_id` ASC),
+  INDEX `fk_url_relation_2_idx` (`child_id` ASC),
+  CONSTRAINT `fk_url_relation_1`
+    FOREIGN KEY (`parent_id`)
+    REFERENCES `url_db`.`colleted_url` (`url_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_url_relation_2`
+    FOREIGN KEY (`child_id`)
+    REFERENCES `url_db`.`colleted_url` (`url_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+
+
+CREATE TABLE `url_db`.`harmful_url` (
+  `url_id` INT NOT NULL AUTO_INCREMENT,
+  `url` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`url_id`),
+  UNIQUE INDEX `url_UNIQUE` (`url` ASC));
+
+
+#need to set default value to harmful = 0
