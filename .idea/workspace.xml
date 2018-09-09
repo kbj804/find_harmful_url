@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682a9e80-4301-431f-b198-51e1cae3434f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/find_whitelist.py" afterPath="$PROJECT_DIR$/find_whitelist.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tasks$sql_test.coverage" NAME="sql_test Coverage Results" MODIFIED="1504593990095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tasks$test.coverage" NAME="test Coverage Results" MODIFIED="1524125134520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/tasks$test.coverage" NAME="test Coverage Results" MODIFIED="1536516880934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/tasks$findurl.coverage" NAME="findurl Coverage Results" MODIFIED="1535947340649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tasks$souptest.coverage" NAME="souptest Coverage Results" MODIFIED="1510830761168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tasks$data_crawl.coverage" NAME="data_crawl Coverage Results" MODIFIED="1505973264732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -21,7 +22,7 @@
     <SUITE FILE_PATH="coverage/tasks$client.coverage" NAME="client Coverage Results" MODIFIED="1521104234292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tasks$crawl_test2.coverage" NAME="crawl_test2 Coverage Results" MODIFIED="1535947226848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tasks$sometests.coverage" NAME="sometests Coverage Results" MODIFIED="1524126316369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tasks$find_whitelist.coverage" NAME="find_whitelist Coverage Results" MODIFIED="1536477446320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tasks$find_whitelist.coverage" NAME="find_whitelist Coverage Results" MODIFIED="1536518029387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tasks$url_parse_test.coverage" NAME="url_parse_test Coverage Results" MODIFIED="1503473955485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -29,7 +30,7 @@
       <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="0">
               <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -41,7 +42,7 @@
       <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="666">
               <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -57,7 +58,7 @@
       <file leaf-file-name="crawl_test2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawl_test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="2916">
               <caret line="172" column="11" lean-forward="false" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -82,7 +83,7 @@
       <file leaf-file-name="findurl.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/findurl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
+            <state relative-caret-position="1854">
               <caret line="105" column="38" lean-forward="false" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -120,8 +121,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="162">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding>
                 <marker date="1536049853970" expanded="true" signature="65:113" ph="select * fro... collected_url" />
                 <marker date="1536049853970" expanded="true" signature="128:194" ph="select child... url_relation" />
@@ -135,17 +136,17 @@
       <file leaf-file-name="find_whitelist.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/find_whitelist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-468">
-              <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+            <state relative-caret-position="420">
+              <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
               <folding>
-                <marker date="1536479643786" expanded="true" signature="54:114" ph="select harmf... collected_url" />
-                <marker date="1536479643786" expanded="true" signature="134:183" ph="select harmf... collected_url" />
-                <marker date="1536479643786" expanded="true" signature="211:264" ph="UPDATE collected_url... " />
-                <marker date="1536479643786" expanded="true" signature="211:281" ph="UPDATE collected_url... " />
-                <marker date="1536479643786" expanded="true" signature="299:351" ph="select child... url_relation" />
-                <marker date="1536479643786" expanded="true" signature="371:390" ph="select url_i... CO" />
-                <marker date="1536479643786" expanded="true" signature="371:439" ph="select url_i... collected_url" />
-                <marker date="1536479643786" expanded="true" signature="458:514" ph="update collected_url... " />
+                <marker date="1536516647850" expanded="true" signature="54:114" ph="select harmf... collected_url" />
+                <marker date="1536516647850" expanded="true" signature="134:183" ph="select harmf... collected_url" />
+                <marker date="1536516647850" expanded="true" signature="211:264" ph="UPDATE collected_url... " />
+                <marker date="1536516647850" expanded="true" signature="211:281" ph="UPDATE collected_url... " />
+                <marker date="1536516647850" expanded="true" signature="299:351" ph="select child... url_relation" />
+                <marker date="1536516647850" expanded="true" signature="371:390" ph="select url_i... CO" />
+                <marker date="1536516647850" expanded="true" signature="371:439" ph="select url_i... collected_url" />
+                <marker date="1536516647850" expanded="true" signature="458:514" ph="update collected_url... " />
               </folding>
             </state>
           </provider>
@@ -206,7 +207,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="40" />
+    <option name="y" value="50" />
     <option name="width" value="1855" />
     <option name="height" value="1104" />
   </component>
@@ -369,10 +370,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.find_whitelist" />
-        <item index="1" class="java.lang.String" itemvalue="Python.findurl" />
-        <item index="2" class="java.lang.String" itemvalue="Python.crawl_test2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sometests" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.findurl" />
+        <item index="3" class="java.lang.String" itemvalue="Python.crawl_test2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sometests" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +394,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="40" width="1855" height="1104" extended-state="0" />
+    <frame x="65" y="50" width="1855" height="1104" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -445,62 +446,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>60</line>
+          <line>71</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>68</line>
+          <line>79</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>70</line>
+          <line>81</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>48</line>
+          <line>57</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>71</line>
+          <line>82</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>49</line>
+          <line>59</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/find_whitelist.py</url>
-          <line>45</line>
+          <line>54</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
       </breakpoints>
@@ -509,32 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/findurl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1527508549532" expanded="true" signature="294:503" ph="select disti... url_relation" />
-            <marker date="1527508549532" expanded="true" signature="294:519" ph="select count... url_relation" />
-            <marker date="1527508549532" expanded="true" signature="379:444" ph="select url_i... collected_url" />
-            <marker date="1527508549532" expanded="true" signature="540:743" ph="select disti... url_relation" />
-            <marker date="1527508549532" expanded="true" signature="540:760" ph="select paren... url_relation" />
-            <marker date="1527508549532" expanded="true" signature="622:687" ph="select url_i... collected_url" />
-            <marker date="1527508549532" expanded="true" signature="789:852" ph="select url,c... collected_url" />
-            <marker date="1527508549532" expanded="true" signature="873:920" ph="select text_... url_data" />
-            <marker date="1527508549532" expanded="true" signature="946:998" ph="select text_... another_data" />
-            <marker date="1527508549532" expanded="true" signature="1025:1099" ph="update collected_url... " />
-            <marker date="1527508549532" expanded="true" signature="1124:1194" ph="update collecte_url... " />
-            <marker date="1527508549532" expanded="true" signature="1124:1195" ph="update collecte_url... " />
-            <marker date="1527508549532" expanded="true" signature="1124:1196" ph="update collecte_url... " />
-            <marker date="1527508549532" expanded="true" signature="1216:1260" ph="delete from url_relation... " />
-            <marker date="1527508549532" expanded="true" signature="1285:1336" ph="update url_relation... " />
-            <marker date="1527508549532" expanded="true" signature="1354:1422" ph="insert into result_url... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawl_test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1050,7 +1000,7 @@
     <entry file="file://$PROJECT_DIR$/sql_test.py" />
     <entry file="file://$PROJECT_DIR$/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="666">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -1062,17 +1012,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sometests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/findurl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
+        <state relative-caret-position="1854">
           <caret line="105" column="38" lean-forward="false" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -1100,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="104" column="14" lean-forward="false" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,22 +1053,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <marker date="1536049853970" expanded="true" signature="65:113" ph="select * fro... collected_url" />
-            <marker date="1536049853970" expanded="true" signature="128:194" ph="select child... url_relation" />
-            <marker date="1536049853970" expanded="true" signature="213:258" ph="select url f... collected_url" />
-            <marker date="1536049853970" expanded="true" signature="277:326" ph="update url_relation... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="0">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -1137,7 +1065,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawl_test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="2916">
           <caret line="172" column="11" lean-forward="false" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -1158,19 +1086,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sometests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <marker date="1536049853970" expanded="true" signature="65:113" ph="select * fro... collected_url" />
+            <marker date="1536049853970" expanded="true" signature="128:194" ph="select child... url_relation" />
+            <marker date="1536049853970" expanded="true" signature="213:258" ph="select url f... collected_url" />
+            <marker date="1536049853970" expanded="true" signature="277:326" ph="update url_relation... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/find_whitelist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+        <state relative-caret-position="420">
+          <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
           <folding>
-            <marker date="1536479643786" expanded="true" signature="54:114" ph="select harmf... collected_url" />
-            <marker date="1536479643786" expanded="true" signature="134:183" ph="select harmf... collected_url" />
-            <marker date="1536479643786" expanded="true" signature="211:264" ph="UPDATE collected_url... " />
-            <marker date="1536479643786" expanded="true" signature="211:281" ph="UPDATE collected_url... " />
-            <marker date="1536479643786" expanded="true" signature="299:351" ph="select child... url_relation" />
-            <marker date="1536479643786" expanded="true" signature="371:390" ph="select url_i... CO" />
-            <marker date="1536479643786" expanded="true" signature="371:439" ph="select url_i... collected_url" />
-            <marker date="1536479643786" expanded="true" signature="458:514" ph="update collected_url... " />
+            <marker date="1536516647850" expanded="true" signature="54:114" ph="select harmf... collected_url" />
+            <marker date="1536516647850" expanded="true" signature="134:183" ph="select harmf... collected_url" />
+            <marker date="1536516647850" expanded="true" signature="211:264" ph="UPDATE collected_url... " />
+            <marker date="1536516647850" expanded="true" signature="211:281" ph="UPDATE collected_url... " />
+            <marker date="1536516647850" expanded="true" signature="299:351" ph="select child... url_relation" />
+            <marker date="1536516647850" expanded="true" signature="371:390" ph="select url_i... CO" />
+            <marker date="1536516647850" expanded="true" signature="371:439" ph="select url_i... collected_url" />
+            <marker date="1536516647850" expanded="true" signature="458:514" ph="update collected_url... " />
           </folding>
         </state>
       </provider>

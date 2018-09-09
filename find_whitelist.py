@@ -18,7 +18,17 @@ def extract_source(id):  #
         curs.execute(find_source_id, id)
         for harmful_source_id in curs.fetchone(): # fetch -> dictionary
             if harmful_source_id == '0' :  # null
-                #connection.close()
+                return id
+            else:
+                id2 = extract_source(harmful_source_id)
+                return id2
+
+def update_white_list(id):
+    with connection.cursor() as curs:
+        curs.execute(find_source_id, id)
+        for harmful_source_id in curs.fetchone():  # fetch -> dictionary
+            if harmful_source_id == '0':  # null
+                # connection.close()
                 print("source id: ", id)
                 return id
 
@@ -26,9 +36,9 @@ def extract_source(id):  #
                 curs.execute(find_child_url, id)
                 child_group = curs.fetchall()
                 print(child_group)
-                for child_id in child_group: ############################################ Need to solution duplication probelm
+                for child_id in child_group:  ############################################ Need to solution duplication probelm
                     print("UPDATE WHITE LIST: ", child_id[0])
-                    curs.execute(update_node_whitelist,child_id[0])
+                    curs.execute(update_node_whitelist, child_id[0])
 
                 # update child_node
                 # curs.execute(update_node_whitelist, id)
@@ -37,19 +47,20 @@ def extract_source(id):  #
                 return id2
 
 
-
 def verify(id):
     #connection = pymysql.connect(host='localhost', user='bj', password='1234', db='url_db', charset='utf8')
     with connection.cursor() as curs:
         curs.execute(verify_whitelist, id)
         for harmful in curs.fetchone(): # if id is in Whitelist, extract source id.
-            curs.close()
+           # curs.close()
             if harmful == 3 :
                 curs.execute(add_white_visit,id)
                 print("verify id: ", id)
+                curs.close()
                 return 1
             else:
                 print("It is harmful URL. ")
+                curs.close()
                 return 0
 
 
@@ -71,6 +82,7 @@ if __name__ == "__main__":
             source_url = extract_source(url_id[0])
             last_value = verify(source_url)
             if last_value == 1 :
+                update_white_list(url_id[0])
                 print("Input All White list. ")
         else:
             ("It is no whitelist...")
