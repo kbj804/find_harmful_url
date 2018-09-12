@@ -1,6 +1,7 @@
 # For find source_id
 
 import pymysql
+import time
 
 find_source_id="select harmful_source_id from collected_url where url_id= %s"
 verify_whitelist="select harmful from collected_url where url_id=%s"
@@ -72,19 +73,25 @@ def generate_url():
         return white_list
 
 
-
 if __name__ == "__main__":
-    connection = pymysql.connect(host='localhost', user='bj', password='1234', db='url_db', charset='utf8')
-    white_list = generate_url()
-    for url_id in white_list:
-        first_value = verify(url_id[0])  # value = 0: No Whitelist / value = 1: Whitelist
-        if first_value == 1:
-            source_url = extract_source(url_id[0])
-            last_value = verify(source_url)
-            if last_value == 1 :
-                update_white_list(url_id[0])
-                print("Input All White list. ")
-        else:
-            ("It is no whitelist...")
-    connection.commit()
-    connection.close()
+    while 1:
+        try:
+            connection = pymysql.connect(host='localhost', user='bj', password='1234', db='url_db', charset='utf8')
+            white_list = generate_url()
+            for url_id in white_list:
+                first_value = verify(url_id[0])  # value = 0: No Whitelist / value = 1: Whitelist
+                if first_value == 1:
+                    source_url = extract_source(url_id[0])
+                    last_value = verify(source_url)
+                    if last_value == 1 :
+                        update_white_list(url_id[0])
+                        print("Input All White list. ")
+                else:
+                    ("It is no whitelist...")
+            connection.commit()
+            connection.close()
+
+        except:
+            time.sleep(50)
+            print("Maybe FINISH OR")
+            print("EEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRROOOOOOOOOOOOOOOOOOOOOOOORRRRRRRRRRRRRRRRRRRRROOOOOOOOOOOOOOOOOOOOOOOOO")
