@@ -21,32 +21,10 @@ def extract_source(id):  #
             if harmful_source_id == '0' :  # null
                 return id
             else:
+                curs.execute(update_node_whitelist, id)
+                print("Input WhiteList ID: ", id)
                 id2 = extract_source(harmful_source_id)
                 return id2
-
-def update_white_list(id):
-    with connection.cursor() as curs:
-        curs.execute(find_source_id, id)
-        for harmful_source_id in curs.fetchone():  # fetch -> dictionary
-            if harmful_source_id == '0':  # null
-                # connection.close()
-                print("source id: ", id)
-                return id
-
-            else:
-                curs.execute(find_child_url, id)
-                child_group = curs.fetchall()
-                print(child_group)
-                for child_id in child_group:  ############################################ Need to solution duplication probelm
-                    print("UPDATE WHITE LIST: ", child_id[0])
-                    curs.execute(update_node_whitelist, child_id[0])
-
-                # update child_node
-                # curs.execute(update_node_whitelist, id)
-                curs.close()
-                id2 = extract_source(harmful_source_id)
-                return id2
-
 
 def verify(id):
     #connection = pymysql.connect(host='localhost', user='bj', password='1234', db='url_db', charset='utf8')
@@ -84,11 +62,12 @@ if __name__ == "__main__":
                     source_url = extract_source(url_id[0])
                     last_value = verify(source_url)
                     if last_value == 1 :
-                        update_white_list(url_id[0])
+                        connection.commit()
                         print("Input All White list. ")
                 else:
                     ("It is no whitelist...")
-            connection.commit()
+                    break;
+
             connection.close()
 
         except:
